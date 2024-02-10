@@ -118,6 +118,7 @@ class HBNBCommand(cmd.Cmd):
         if not args:
             print("** class name missing **")
             return
+
        args = arg.split()
        class_name = args[0]
        if class_name not in self.classes:
