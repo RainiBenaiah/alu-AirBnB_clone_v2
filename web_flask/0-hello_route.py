@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+"""This is documentation"""
+
 from flask import Flask
 
 app = Flask(__name__)
