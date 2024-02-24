@@ -5,7 +5,6 @@ from flask import render_template
 
 app = Flask(__name__)
 
-
 @app.route("/", strict_slashes=False)
 def hello():
     """ return Hello HBNB! """
